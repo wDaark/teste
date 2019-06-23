@@ -14,7 +14,7 @@ $(function() {
     clipboard.on('success', function(e) {
         $(e.trigger).html("IP COPIADO, BORA LÁ!");
         setTimeout(function() {
-            $(e.trigger).html("JOGAR.WICHERNETWORK.COM.BR");
+            $(e.trigger).html("server.youcraft.com.br");
 
         }, 1000);
     });
